@@ -1,0 +1,66 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+}
+
+#wrapper{
+  height: 100%;
+
+}
+
+.sidebar{
+  float:left;
+  width: 20%;
+  height: 100%;
+  background-color: turquoise;
+}
+
+.main{
+  float: right;
+  width: 80%;
+  height: 100%;
+  background-color: orange;
+}
+
+.content{
+  padding: 50px.100px;
+}
+
+.sitename{
+  text-align: center;
+}
+
+.sitename a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.sitename a:hover {
+   color: hotpink;
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  list-style: none;
+  border-bottom: 1px solid white;
+  padding-left: 30px;
+  line-height: 60px;
+}
+
+ul li:first-child {
+  border-top: 1 px solid white;
+}
+
+ul li:hover {
+  background-color: orange;
+}
